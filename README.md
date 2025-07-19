@@ -8,7 +8,7 @@ CCP periodically releases an SDE for game assets.
 
 Note: SDE is not live data. It is STATIC data. So things like: region names, system names, station names, market categories, market item names. Along with these names are many other fields of interest to those that want to build their own data collection or data search tools.
 
-SDE Link: https://developers.eveonline.com/docs/services/sde/ 
+SDE Link: https://developers.eveonline.com/docs/services/sde/ (too large to keep in here)
 
 ## EVE Swagger Interface (ESI)
 If you are wanting to retrieve live game data, such as market orders & prices, jump gate usage, etc. Then your data tool or script will need to pull data from the Tranquility server.
@@ -22,14 +22,15 @@ https://developers.eveonline.com/docs/services/iec/
 
 I will also keep a copy of this download here in this repo.
 
+•	Open these 2 files from the SDE
+o	marketGroups.yaml
+o	iconIDs.yaml
+•	Open the unzipped image export collection folder.
 
-•	Open marketGroups.yaml
-•	Search for market group name (Example: Manufacture & Research)
-•	Copy the marketGroupID from marketGroups.yaml (Example: 1436)
-•	Open iconIDs.yaml and search for the copied marketGroupID
-•	Copy the iconID from the iconIDs.yaml found by searching the marketGroupID. (Example: 
-•	Open iconIDs.yaml for the marketGroupID (
-•	Take the iconFile image name and search in the icons image export folder
-•	Search for the iconFile image name.
-•	The exact matched file name will be the icon used for that market group.
+•	Search marketGroups.yaml for a group name (Example: Manufacture & Research)
+•	Copy the iconID from marketGroups.yaml (Example: 1436)
+•	Search iconIDs.yaml for the iconID
+•	Copy the path file name at the end of the path for the iconFile (Example: 27_64_1.png)
+•	In the image export collection folder, do a search for the iconFile name.
+•	You may get a few results, but what you want is the name that is an exact match.
 

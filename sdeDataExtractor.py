@@ -1,33 +1,54 @@
 import os
 import yaml
 import json
-import requests
-import shutil
-from tqdm import tqdm
+import threading
+import itertools
+import sys
+import time
 
 # ─── Paths ────────────────────────────────────────────────
 SDE_ROOT = "sde"
+REGIONS_PATH = os.path.join(SDE_ROOT, "fsd", "regions.yaml")
+STATIONS_PATH = os.path.join(SDE_ROOT, "bsd", "staStations.yaml")
 MARKET_GROUPS_PATH = os.path.join(SDE_ROOT, "fsd", "marketGroups.yaml")
 TYPES_PATH = os.path.join(SDE_ROOT, "fsd", "types.yaml")
-STATIONS_PATH = os.path.join(SDE_ROOT, "bsd", "staStations.yaml")
-ICON_IDS_PATH = os.path.join(SDE_ROOT, "bsd", "iconIDs.yaml")
-
-# This is the path where the extracted SDE icon PNG files are stored
-# Adjust if your extracted icons folder is somewhere else!
-SDE_ICONS_PATH = os.path.join(SDE_ROOT, "icons")
-
-TYPE_ICON_DIR = os.path.join("icons", "types")
-GROUP_ICON_DIR = os.path.join("icons", "groups")
-
-# ─── Utilities ─────────────────────────────────────────────
+ICON_IDS_PATH = os.path.join(SDE_ROOT, "fsd", "iconIDs.yaml")
 
 
+# ─── Spinner Utility ───────────────────────────────────────
+class Spinner:
+    """Context-manager for an animated spinner in the console."""
+
+    def __init__(self, message="Working"):
+        self.message = message
+        self._spinner = itertools.cycle(["|", "/", "-", "\\"])
+        self._stop = False
+        self._thread = threading.Thread(target=self._spin)
+
+    def _spin(self):
+        while not self._stop:
+            sys.stdout.write(f"\r{self.message} {next(self._spinner)}")
+            sys.stdout.flush()
+            time.sleep(0.1)
+        sys.stdout.write("\r" + " " * (len(self.message) + 2) + "\r")
+        sys.stdout.flush()
+
+    def __enter__(self):
+        self._thread.start()
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self._stop = True
+        self._thread.join()
+
+
+# ─── Common Utilities ─────────────────────────────────────
 def load_yaml(path):
     if not os.path.exists(path):
         print(f"⚠️ Missing YAML file: {path}")
-        return None
+        return {}
     with open(path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+        return yaml.safe_load(f) or {}
 
 
 def write_json(filename, data):
@@ -36,236 +57,179 @@ def write_json(filename, data):
     print(f"💾 Saved: {filename}")
 
 
-def normalize_yes_no(value):
-    value = value.strip().lower()
-    if value in ("yes", "y"):
+def normalize_yes_no(val):
+    v = val.strip().lower()
+    if v in ("yes", "y"):
         return True
-    elif value in ("no", "n"):
+    if v in ("no", "n"):
         return False
-    else:
-        return None
+    return None
 
 
-# ─── Stations ──────────────────────────────────────────────
+# ─── Region Extraction ────────────────────────────────────
+def extract_regions():
+    raw = load_yaml(REGIONS_PATH)
+    regions = {}
+    print(f"\n🌍 Parsing {len(raw)} regions…")
+    for rid, info in raw.items():
+        regions[rid] = {
+            "regionID":        rid,
+            "regionName":      info.get("regionName", ""),
+            "constellationIDs": info.get("constellations", [])
+        }
+    return regions
 
+
+# ─── Station Extraction ───────────────────────────────────
 def extract_stations():
-    stations_raw = load_yaml(STATIONS_PATH) or []
+    raw = load_yaml(STATIONS_PATH)
     stations = {}
-    print(f"\n📦 Parsing {len(stations_raw)} station entries...")
-    for s in tqdm(stations_raw, desc="🏭 Stations", unit="station"):
-        sid = str(s.get("stationID"))
+    print(f"\n🏭 Parsing {len(raw)} stations…")
+    for s in raw:
+        sid = str(s.get("stationID", ""))
         if not sid:
             continue
         stations[sid] = {
-            "stationID": sid,
-            "stationName": s.get("stationName"),
-            "solarSystemID": s.get("solarSystemID"),
-            "regionID": s.get("regionID"),
-            "constellationID": s.get("constellationID"),
-            "stationTypeID": s.get("stationTypeID")
+            "stationID":       sid,
+            "stationName":     s.get("stationName", ""),
+            "solarSystemID":   s.get("solarSystemID", ""),
+            "regionID":        s.get("regionID", ""),
+            "constellationID": s.get("constellationID", ""),
+            "stationTypeID":   s.get("stationTypeID", "")
         }
     return stations
 
 
-# ─── Market ────────────────────────────────────────────────
-
-def extract_market_menu(need_item_types=False):
-    market_groups = load_yaml(MARKET_GROUPS_PATH) or {}
-    types = load_yaml(TYPES_PATH) if need_item_types else {}
-
-    group_data = {}
-    children_map = {}
-
-    print(f"\n🧩 Processing {len(market_groups)} market groups...")
-    for gid, group in tqdm(market_groups.items(), desc="Market Groups", unit="group"):
-        name = group.get("nameID", {}).get("en")
-        if not name:
-            continue
-        group_data[gid] = {
-            "name": name,
-            "_info": {
-                "marketGroupID": str(gid),
-                "iconID": str(group.get("iconID", "")),
-                "hasTypes": str(group.get("hasTypes", 0))
-            },
-            "items": [],
-            "children": []
-        }
-        parent = group.get("parentGroupID")
-        if parent is not None:
-            children_map.setdefault(parent, []).append(gid)
-
-    if need_item_types and types:
-        print(f"\n🔍 Scanning {len(types)} item types...")
-        for tid, t in tqdm(types.items(), desc="Item Types", unit="type"):
-            if not t.get("published") or "marketGroupID" not in t:
-                continue
-            gid = t["marketGroupID"]
-            if gid in group_data:
-                group_data[gid]["items"].append({
-                    "typeID": str(tid),
-                    "typeName": t["name"].get("en", ""),
-                    "iconID": str(t.get("iconID", "")),
-                    "volume": t.get("volume", 0),
-                    "mass": t.get("mass", 0),
-                    "published": True
-                })
-
-    def build_group(gid):
-        g = group_data[gid]
-        group_name = g["name"]
-        node = {group_name: {"_info": g["_info"]}}
-        if g.get("items"):
-            node[group_name]["items"] = sorted(
-                g["items"], key=lambda x: x["typeName"].lower())
-        for child_id in sorted(children_map.get(gid, []), key=lambda cid: group_data[cid]["name"].lower()):
-            node[group_name].update(build_group(child_id))
-        return node
-
-    market_menu = {}
-    for gid in sorted([g for g in group_data if market_groups.get(g, {}).get("parentGroupID") is None],
-                      key=lambda g: group_data[g]["name"].lower()):
-        market_menu.update(build_group(gid))
-
-    return market_menu, market_groups
-
-
-# ─── Icon Downloads ───────────────────────────────────────
-
-def download_type_icons(market_menu):
-    os.makedirs(TYPE_ICON_DIR, exist_ok=True)
-    type_ids = set()
-
-    def collect_types(node):
-        for section in node.values():
-            for item in section.get("items", []):
-                type_ids.add(item["typeID"])
-            for k, v in section.items():
-                if isinstance(v, dict):
-                    collect_types({k: v})
-
-    collect_types(market_menu)
-    print(f"\n⬇️ Downloading {len(type_ids)} type icons...")
-    for tid in tqdm(sorted(type_ids), desc="Type Icons", unit="icon"):
-        url = f"https://images.evetech.net/types/{tid}/icon"
-        try:
-            r = requests.get(url, timeout=5)
-            if r.ok:
-                with open(os.path.join(TYPE_ICON_DIR, f"{tid}.png"), "wb") as f:
-                    f.write(r.content)
-        except Exception as e:
-            print(f"⚠️ Error downloading type {tid}: {e}")
-
-
-def copy_group_icons(market_groups, icon_ids_map):
-    """
-    Copy 32-resolution group icons using iconFile reference from iconIDs.yaml.
-    """
-    os.makedirs(GROUP_ICON_DIR, exist_ok=True)
-    copied = 0
-    missing_icons = []
-
-    print(f"\n📂 Copying 32x32 group icons...")
-    for gid, group in tqdm(market_groups.items(), desc="Group Icons", unit="group"):
-        icon_id = group.get("iconID")
-        if not icon_id:
-            continue
-        icon_file = icon_ids_map.get(icon_id)
-        if not icon_file:
-            missing_icons.append(icon_id)
-            continue
-
-        original_filename = os.path.basename(icon_file)
-        if not original_filename:
-            continue
-
-        # Substitute '64' with '32' to target 32px icons
-        filename_32 = original_filename.replace("64", "32")
-        src_path = os.path.join(SDE_ICONS_PATH, filename_32)
-        dst_path = os.path.join(GROUP_ICON_DIR, f"{gid}.png")
-
-        if not os.path.exists(src_path):
-            print(f"⚠️ Missing 32px icon file: {src_path}")
-            continue
-        try:
-            shutil.copyfile(src_path, dst_path)
-            copied += 1
-        except Exception as e:
-            print(f"⚠️ Error copying icon {filename_32}: {e}")
-
-    print(f"✅ Copied {copied} 32x32 group icons.")
-    if missing_icons:
-        print(f"⚠️ Missing iconIDs in iconIDs.yaml: {set(missing_icons)}")
-
-
-def load_icon_ids():
-    """
-    Load iconIDs.yaml and return a dict mapping iconID (int) -> iconFile (string).
-    """
-    icon_ids_data = load_yaml(ICON_IDS_PATH) or {}
+# ─── Market Menu Extraction ────────────────────────────────
+def load_icon_map():
+    raw = load_yaml(ICON_IDS_PATH)
     icon_map = {}
-    for icon_id_str, info in icon_ids_data.items():
+    for key, info in raw.items():
         try:
-            icon_id = int(icon_id_str)
-            icon_file = info.get("iconFile")
-            if icon_file:
-                icon_map[icon_id] = icon_file
-        except Exception:
+            iid = int(key)
+            file_path = info.get("iconFile", "")
+            icon_map[iid] = os.path.basename(file_path)
+        except ValueError:
             continue
     return icon_map
 
 
-# ─── Main Menu ─────────────────────────────────────────────
+def extract_market_menu(include_items=False):
+    groups_data = load_yaml(MARKET_GROUPS_PATH)
+    types_data = load_yaml(TYPES_PATH) if include_items else {}
+    icon_map = load_icon_map()
 
+    group_map = {}
+    children = {}
+
+    print(f"\n⏳ Building market menu (alphabetical)...")
+    with Spinner("Processing"):
+        # 1) Build group entries
+        for gid_str, info in groups_data.items():
+            gid = int(gid_str)
+            name = info.get("nameID", {}).get("en", "").strip()
+            icon_id = int(info.get("iconID", 0))
+            has_types = bool(info.get("hasTypes", 0))
+
+            group_map[gid] = {
+                "name": name,
+                "_info": {
+                    "marketGroupID": str(gid),
+                    "iconID":        str(icon_id),
+                    "iconFile":      icon_map.get(icon_id, ""),
+                    "hasTypes":      str(has_types)
+                },
+                "items":   [],
+                "children": []
+            }
+            parent = info.get("parentGroupID")
+            if parent is not None:
+                children.setdefault(parent, []).append(gid)
+
+        # 2) Sort children by name and attach
+        for gid, grp in group_map.items():
+            child_ids = children.get(gid, [])
+            # Sort by the group's own name
+            grp["children"] = sorted(
+                child_ids,
+                key=lambda cid: group_map[cid]["name"].lower()
+            )
+
+        # 3) Optionally attach and sort item types
+        if include_items:
+            for tid_str, tinfo in types_data.items():
+                if not tinfo.get("published") or "marketGroupID" not in tinfo:
+                    continue
+                tid = int(tid_str)
+                gid = tinfo["marketGroupID"]
+                entry = {
+                    "typeID":   str(tid),
+                    "typeName": tinfo["name"].get("en", "").strip(),
+                    "iconID":   str(int(tinfo.get("iconID", 0))),
+                    "iconFile": icon_map.get(int(tinfo.get("iconID", 0)), ""),
+                    "volume":   tinfo.get("volume", 0),
+                    "mass":     tinfo.get("mass", 0),
+                    "published": True
+                }
+                if gid in group_map:
+                    group_map[gid]["items"].append(entry)
+
+        # After all items added, sort each group's items by typeName
+        if include_items:
+            for grp in group_map.values():
+                grp["items"] = sorted(
+                    grp["items"],
+                    key=lambda x: x["typeName"].lower()
+                )
+
+    # 4) Determine alphabetical roots
+    all_children = {cid for clist in children.values() for cid in clist}
+    roots = sorted(
+        [gid for gid in group_map if gid not in all_children],
+        key=lambda g: group_map[g]["name"].lower()
+    )
+
+    # 5) Recursively assemble tree
+    def build_tree(gid):
+        grp = group_map[gid]
+        node = {grp["name"]: {"_info": grp["_info"]}}
+        if grp["items"]:
+            node[grp["name"]]["items"] = grp["items"]  # already sorted
+        for child in grp["children"]:
+            node[grp["name"]].update(build_tree(child))
+        return node
+
+    menu = {}
+    for gid in roots:
+        menu.update(build_tree(gid))
+
+    return menu
+
+
+# ─── Main Interactive Menu ─────────────────────────────────
 def main():
     print("\n🛠 EVE Market Data Extractor\n")
+    print("1) Build regions.json")
+    print("2) Build stations.json")
+    print("3) Build marketMenu.json")
+    print("4) Build Everything\n")
 
-    stations_choice = normalize_yes_no(
-        input("🔧 Build Station Menu? (yes/no): "))
-    market_choice = normalize_yes_no(input("🔧 Build Market Menu? (yes/no): "))
-    icons_choice = normalize_yes_no(input("🎨 Download Icons? (yes/no): "))
-
-    if stations_choice is None or market_choice is None or icons_choice is None:
-        print("⚠️ Invalid input. Please answer with yes, y, no, or n.")
+    choice = input("Enter choice [1-4]: ").strip()
+    if choice not in ("1", "2", "3", "4"):
+        print("⚠️ Invalid selection.")
         return
 
-    icon_mode = None
-    if icons_choice:
-        print("\n🎯 Choose icon type:")
-        print("  1 — All icons (type + group)")
-        print("  2 — Only type icons")
-        print("  3 — Only group icons")
-        icon_mode = input("Enter your choice [1–3]: ").strip()
+    if choice in ("1", "4"):
+        regions = extract_regions()
+        write_json("regions.json", regions)
 
-    if stations_choice:
+    if choice in ("2", "4"):
         stations = extract_stations()
         write_json("stations.json", stations)
 
-    need_type_icons = icons_choice and icon_mode in ("1", "2")
-    need_item_types = market_choice or need_type_icons
-
-    market_menu, market_groups = None, None
-    if market_choice or icons_choice:
-        market_menu, market_groups = extract_market_menu(
-            need_item_types=need_item_types)
-
-    if market_choice:
-        write_json("marketMenu.json", market_menu)
-
-    if icons_choice and icon_mode:
-        icon_ids_map = {}
-        if icon_mode in ("1", "3"):
-            icon_ids_map = load_icon_ids()
-
-        if icon_mode == "1":
-            download_type_icons(market_menu)
-            copy_group_icons(market_groups, icon_ids_map)
-        elif icon_mode == "2":
-            download_type_icons(market_menu)
-        elif icon_mode == "3":
-            copy_group_icons(market_groups, icon_ids_map)
-        else:
-            print("⚠️ Invalid icon mode. No icons downloaded.")
+    if choice in ("3", "4"):
+        menu = extract_market_menu(include_items=True)
+        write_json("marketMenu.json", menu)
 
 
 if __name__ == "__main__":
