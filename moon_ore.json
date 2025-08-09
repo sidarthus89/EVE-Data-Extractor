@@ -1,0 +1,1734 @@
+{
+  "moon_ores": [
+    {
+      "typeID": 45494,
+      "name": "Cobaltite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16640,
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "typeID": 45495,
+      "name": "Euxenite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16639,
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "typeID": 45496,
+      "name": "Titanite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16638,
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "typeID": 45497,
+      "name": "Scheelite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16637,
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "typeID": 45498,
+      "name": "Otavite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 10
+        },
+        {
+          "typeID": 16643,
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "typeID": 45499,
+      "name": "Sperrylite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 10
+        },
+        {
+          "typeID": 16644,
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "typeID": 45500,
+      "name": "Vanadinite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 10
+        },
+        {
+          "typeID": 16642,
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "typeID": 45501,
+      "name": "Chromite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 10
+        },
+        {
+          "typeID": 16641,
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "typeID": 45502,
+      "name": "Carnotite",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 15
+        },
+        {
+          "typeID": 16640,
+          "quantity": 10
+        },
+        {
+          "typeID": 16649,
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "typeID": 45503,
+      "name": "Zircon",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 15
+        },
+        {
+          "typeID": 16638,
+          "quantity": 10
+        },
+        {
+          "typeID": 16648,
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "typeID": 45504,
+      "name": "Pollucite",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 15
+        },
+        {
+          "typeID": 16639,
+          "quantity": 10
+        },
+        {
+          "typeID": 16647,
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "typeID": 45506,
+      "name": "Cinnabar",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 15
+        },
+        {
+          "typeID": 16637,
+          "quantity": 10
+        },
+        {
+          "typeID": 16646,
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "typeID": 45510,
+      "name": "Xenotime",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 20
+        },
+        {
+          "typeID": 16640,
+          "quantity": 20
+        },
+        {
+          "typeID": 16642,
+          "quantity": 10
+        },
+        {
+          "typeID": 16650,
+          "quantity": 22
+        }
+      ]
+    },
+    {
+      "typeID": 45511,
+      "name": "Monazite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 20
+        },
+        {
+          "typeID": 16637,
+          "quantity": 20
+        },
+        {
+          "typeID": 16641,
+          "quantity": 10
+        },
+        {
+          "typeID": 16651,
+          "quantity": 22
+        }
+      ]
+    },
+    {
+      "typeID": 45512,
+      "name": "Loparite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 20
+        },
+        {
+          "typeID": 16639,
+          "quantity": 20
+        },
+        {
+          "typeID": 16644,
+          "quantity": 10
+        },
+        {
+          "typeID": 16652,
+          "quantity": 22
+        }
+      ]
+    },
+    {
+      "typeID": 45513,
+      "name": "Ytterbite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 20
+        },
+        {
+          "typeID": 16638,
+          "quantity": 20
+        },
+        {
+          "typeID": 16643,
+          "quantity": 10
+        },
+        {
+          "typeID": 16653,
+          "quantity": 22
+        }
+      ]
+    },
+    {
+      "typeID": 46288,
+      "name": "Copious Cobaltite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16640,
+          "quantity": 46
+        }
+      ]
+    },
+    {
+      "typeID": 46289,
+      "name": "Twinkling Cobaltite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16640,
+          "quantity": 80
+        }
+      ]
+    },
+    {
+      "typeID": 46290,
+      "name": "Copious Euxenite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16639,
+          "quantity": 46
+        }
+      ]
+    },
+    {
+      "typeID": 46291,
+      "name": "Twinkling Euxenite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16639,
+          "quantity": 80
+        }
+      ]
+    },
+    {
+      "typeID": 46292,
+      "name": "Copious Titanite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16638,
+          "quantity": 46
+        }
+      ]
+    },
+    {
+      "typeID": 46293,
+      "name": "Twinkling Titanite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16638,
+          "quantity": 80
+        }
+      ]
+    },
+    {
+      "typeID": 46294,
+      "name": "Copious Scheelite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16637,
+          "quantity": 46
+        }
+      ]
+    },
+    {
+      "typeID": 46295,
+      "name": "Twinkling Scheelite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16637,
+          "quantity": 80
+        }
+      ]
+    },
+    {
+      "typeID": 46296,
+      "name": "Lavish Otavite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 12
+        },
+        {
+          "typeID": 16643,
+          "quantity": 46
+        }
+      ]
+    },
+    {
+      "typeID": 46297,
+      "name": "Shimmering Otavite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 20
+        },
+        {
+          "typeID": 16643,
+          "quantity": 80
+        }
+      ]
+    },
+    {
+      "typeID": 46298,
+      "name": "Lavish Sperrylite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 12
+        },
+        {
+          "typeID": 16644,
+          "quantity": 46
+        }
+      ]
+    },
+    {
+      "typeID": 46299,
+      "name": "Shimmering Sperrylite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 20
+        },
+        {
+          "typeID": 16644,
+          "quantity": 80
+        }
+      ]
+    },
+    {
+      "typeID": 46300,
+      "name": "Lavish Vanadinite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 12
+        },
+        {
+          "typeID": 16642,
+          "quantity": 46
+        }
+      ]
+    },
+    {
+      "typeID": 46301,
+      "name": "Shimmering Vanadinite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 20
+        },
+        {
+          "typeID": 16642,
+          "quantity": 80
+        }
+      ]
+    },
+    {
+      "typeID": 46302,
+      "name": "Lavish Chromite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 12
+        },
+        {
+          "typeID": 16641,
+          "quantity": 46
+        }
+      ]
+    },
+    {
+      "typeID": 46303,
+      "name": "Shimmering Chromite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 20
+        },
+        {
+          "typeID": 16641,
+          "quantity": 80
+        }
+      ]
+    },
+    {
+      "typeID": 46304,
+      "name": "Replete Carnotite",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 17
+        },
+        {
+          "typeID": 16640,
+          "quantity": 12
+        },
+        {
+          "typeID": 16649,
+          "quantity": 58
+        }
+      ]
+    },
+    {
+      "typeID": 46305,
+      "name": "Glowing Carnotite",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 30
+        },
+        {
+          "typeID": 16640,
+          "quantity": 20
+        },
+        {
+          "typeID": 16649,
+          "quantity": 100
+        }
+      ]
+    },
+    {
+      "typeID": 46306,
+      "name": "Replete Zircon",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 17
+        },
+        {
+          "typeID": 16638,
+          "quantity": 12
+        },
+        {
+          "typeID": 16648,
+          "quantity": 58
+        }
+      ]
+    },
+    {
+      "typeID": 46307,
+      "name": "Glowing Zircon",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 30
+        },
+        {
+          "typeID": 16638,
+          "quantity": 20
+        },
+        {
+          "typeID": 16648,
+          "quantity": 100
+        }
+      ]
+    },
+    {
+      "typeID": 46308,
+      "name": "Replete Pollucite",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 17
+        },
+        {
+          "typeID": 16639,
+          "quantity": 12
+        },
+        {
+          "typeID": 16647,
+          "quantity": 58
+        }
+      ]
+    },
+    {
+      "typeID": 46309,
+      "name": "Glowing Pollucite",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 30
+        },
+        {
+          "typeID": 16639,
+          "quantity": 20
+        },
+        {
+          "typeID": 16647,
+          "quantity": 100
+        }
+      ]
+    },
+    {
+      "typeID": 46310,
+      "name": "Replete Cinnabar",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 17
+        },
+        {
+          "typeID": 16637,
+          "quantity": 12
+        },
+        {
+          "typeID": 16646,
+          "quantity": 58
+        }
+      ]
+    },
+    {
+      "typeID": 46311,
+      "name": "Glowing Cinnabar",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 30
+        },
+        {
+          "typeID": 16637,
+          "quantity": 20
+        },
+        {
+          "typeID": 16646,
+          "quantity": 100
+        }
+      ]
+    },
+    {
+      "typeID": 46312,
+      "name": "Bountiful Xenotime",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 23
+        },
+        {
+          "typeID": 16640,
+          "quantity": 23
+        },
+        {
+          "typeID": 16642,
+          "quantity": 12
+        },
+        {
+          "typeID": 16650,
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "typeID": 46313,
+      "name": "Shining Xenotime",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 40
+        },
+        {
+          "typeID": 16640,
+          "quantity": 40
+        },
+        {
+          "typeID": 16642,
+          "quantity": 20
+        },
+        {
+          "typeID": 16650,
+          "quantity": 44
+        }
+      ]
+    },
+    {
+      "typeID": 46314,
+      "name": "Bountiful Monazite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 23
+        },
+        {
+          "typeID": 16637,
+          "quantity": 23
+        },
+        {
+          "typeID": 16641,
+          "quantity": 12
+        },
+        {
+          "typeID": 16651,
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "typeID": 46315,
+      "name": "Shining Monazite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 40
+        },
+        {
+          "typeID": 16637,
+          "quantity": 40
+        },
+        {
+          "typeID": 16641,
+          "quantity": 20
+        },
+        {
+          "typeID": 16651,
+          "quantity": 44
+        }
+      ]
+    },
+    {
+      "typeID": 46316,
+      "name": "Bountiful Loparite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 23
+        },
+        {
+          "typeID": 16639,
+          "quantity": 23
+        },
+        {
+          "typeID": 16644,
+          "quantity": 12
+        },
+        {
+          "typeID": 16652,
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "typeID": 46317,
+      "name": "Shining Loparite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 40
+        },
+        {
+          "typeID": 16639,
+          "quantity": 40
+        },
+        {
+          "typeID": 16644,
+          "quantity": 20
+        },
+        {
+          "typeID": 16652,
+          "quantity": 44
+        }
+      ]
+    },
+    {
+      "typeID": 46318,
+      "name": "Bountiful Ytterbite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 23
+        },
+        {
+          "typeID": 16638,
+          "quantity": 23
+        },
+        {
+          "typeID": 16643,
+          "quantity": 12
+        },
+        {
+          "typeID": 16653,
+          "quantity": 25
+        }
+      ]
+    },
+    {
+      "typeID": 46319,
+      "name": "Shining Ytterbite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 40
+        },
+        {
+          "typeID": 16638,
+          "quantity": 40
+        },
+        {
+          "typeID": 16643,
+          "quantity": 20
+        },
+        {
+          "typeID": 16653,
+          "quantity": 44
+        }
+      ]
+    }
+  ],
+  "moon_ore_subtypes": {
+    "Bountiful Loparite": {
+      "typeID": 46316,
+      "name": "Bountiful Loparite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 23
+        },
+        {
+          "typeID": 16639,
+          "quantity": 23
+        },
+        {
+          "typeID": 16644,
+          "quantity": 12
+        },
+        {
+          "typeID": 16652,
+          "quantity": 25
+        }
+      ]
+    },
+    "Bountiful Monazite": {
+      "typeID": 46314,
+      "name": "Bountiful Monazite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 23
+        },
+        {
+          "typeID": 16637,
+          "quantity": 23
+        },
+        {
+          "typeID": 16641,
+          "quantity": 12
+        },
+        {
+          "typeID": 16651,
+          "quantity": 25
+        }
+      ]
+    },
+    "Bountiful Xenotime": {
+      "typeID": 46312,
+      "name": "Bountiful Xenotime",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 23
+        },
+        {
+          "typeID": 16640,
+          "quantity": 23
+        },
+        {
+          "typeID": 16642,
+          "quantity": 12
+        },
+        {
+          "typeID": 16650,
+          "quantity": 25
+        }
+      ]
+    },
+    "Bountiful Ytterbite": {
+      "typeID": 46318,
+      "name": "Bountiful Ytterbite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 23
+        },
+        {
+          "typeID": 16638,
+          "quantity": 23
+        },
+        {
+          "typeID": 16643,
+          "quantity": 12
+        },
+        {
+          "typeID": 16653,
+          "quantity": 25
+        }
+      ]
+    },
+    "Carnotite": {
+      "typeID": 45502,
+      "name": "Carnotite",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 15
+        },
+        {
+          "typeID": 16640,
+          "quantity": 10
+        },
+        {
+          "typeID": 16649,
+          "quantity": 50
+        }
+      ]
+    },
+    "Chromite": {
+      "typeID": 45501,
+      "name": "Chromite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 10
+        },
+        {
+          "typeID": 16641,
+          "quantity": 40
+        }
+      ]
+    },
+    "Cinnabar": {
+      "typeID": 45506,
+      "name": "Cinnabar",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 15
+        },
+        {
+          "typeID": 16637,
+          "quantity": 10
+        },
+        {
+          "typeID": 16646,
+          "quantity": 50
+        }
+      ]
+    },
+    "Cobaltite": {
+      "typeID": 45494,
+      "name": "Cobaltite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16640,
+          "quantity": 40
+        }
+      ]
+    },
+    "Copious Cobaltite": {
+      "typeID": 46288,
+      "name": "Copious Cobaltite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16640,
+          "quantity": 46
+        }
+      ]
+    },
+    "Copious Euxenite": {
+      "typeID": 46290,
+      "name": "Copious Euxenite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16639,
+          "quantity": 46
+        }
+      ]
+    },
+    "Copious Scheelite": {
+      "typeID": 46294,
+      "name": "Copious Scheelite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16637,
+          "quantity": 46
+        }
+      ]
+    },
+    "Copious Titanite": {
+      "typeID": 46292,
+      "name": "Copious Titanite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16638,
+          "quantity": 46
+        }
+      ]
+    },
+    "Euxenite": {
+      "typeID": 45495,
+      "name": "Euxenite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16639,
+          "quantity": 40
+        }
+      ]
+    },
+    "Glowing Carnotite": {
+      "typeID": 46305,
+      "name": "Glowing Carnotite",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 30
+        },
+        {
+          "typeID": 16640,
+          "quantity": 20
+        },
+        {
+          "typeID": 16649,
+          "quantity": 100
+        }
+      ]
+    },
+    "Glowing Cinnabar": {
+      "typeID": 46311,
+      "name": "Glowing Cinnabar",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 30
+        },
+        {
+          "typeID": 16637,
+          "quantity": 20
+        },
+        {
+          "typeID": 16646,
+          "quantity": 100
+        }
+      ]
+    },
+    "Glowing Pollucite": {
+      "typeID": 46309,
+      "name": "Glowing Pollucite",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 30
+        },
+        {
+          "typeID": 16639,
+          "quantity": 20
+        },
+        {
+          "typeID": 16647,
+          "quantity": 100
+        }
+      ]
+    },
+    "Glowing Zircon": {
+      "typeID": 46307,
+      "name": "Glowing Zircon",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 30
+        },
+        {
+          "typeID": 16638,
+          "quantity": 20
+        },
+        {
+          "typeID": 16648,
+          "quantity": 100
+        }
+      ]
+    },
+    "Lavish Chromite": {
+      "typeID": 46302,
+      "name": "Lavish Chromite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 12
+        },
+        {
+          "typeID": 16641,
+          "quantity": 46
+        }
+      ]
+    },
+    "Lavish Otavite": {
+      "typeID": 46296,
+      "name": "Lavish Otavite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 12
+        },
+        {
+          "typeID": 16643,
+          "quantity": 46
+        }
+      ]
+    },
+    "Lavish Sperrylite": {
+      "typeID": 46298,
+      "name": "Lavish Sperrylite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 12
+        },
+        {
+          "typeID": 16644,
+          "quantity": 46
+        }
+      ]
+    },
+    "Lavish Vanadinite": {
+      "typeID": 46300,
+      "name": "Lavish Vanadinite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 12
+        },
+        {
+          "typeID": 16642,
+          "quantity": 46
+        }
+      ]
+    },
+    "Loparite": {
+      "typeID": 45512,
+      "name": "Loparite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 20
+        },
+        {
+          "typeID": 16639,
+          "quantity": 20
+        },
+        {
+          "typeID": 16644,
+          "quantity": 10
+        },
+        {
+          "typeID": 16652,
+          "quantity": 22
+        }
+      ]
+    },
+    "Monazite": {
+      "typeID": 45511,
+      "name": "Monazite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 20
+        },
+        {
+          "typeID": 16637,
+          "quantity": 20
+        },
+        {
+          "typeID": 16641,
+          "quantity": 10
+        },
+        {
+          "typeID": 16651,
+          "quantity": 22
+        }
+      ]
+    },
+    "Otavite": {
+      "typeID": 45498,
+      "name": "Otavite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 10
+        },
+        {
+          "typeID": 16643,
+          "quantity": 40
+        }
+      ]
+    },
+    "Pollucite": {
+      "typeID": 45504,
+      "name": "Pollucite",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 15
+        },
+        {
+          "typeID": 16639,
+          "quantity": 10
+        },
+        {
+          "typeID": 16647,
+          "quantity": 50
+        }
+      ]
+    },
+    "Replete Carnotite": {
+      "typeID": 46304,
+      "name": "Replete Carnotite",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 17
+        },
+        {
+          "typeID": 16640,
+          "quantity": 12
+        },
+        {
+          "typeID": 16649,
+          "quantity": 58
+        }
+      ]
+    },
+    "Replete Cinnabar": {
+      "typeID": 46310,
+      "name": "Replete Cinnabar",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 17
+        },
+        {
+          "typeID": 16637,
+          "quantity": 12
+        },
+        {
+          "typeID": 16646,
+          "quantity": 58
+        }
+      ]
+    },
+    "Replete Pollucite": {
+      "typeID": 46308,
+      "name": "Replete Pollucite",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 17
+        },
+        {
+          "typeID": 16639,
+          "quantity": 12
+        },
+        {
+          "typeID": 16647,
+          "quantity": 58
+        }
+      ]
+    },
+    "Replete Zircon": {
+      "typeID": 46306,
+      "name": "Replete Zircon",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 17
+        },
+        {
+          "typeID": 16638,
+          "quantity": 12
+        },
+        {
+          "typeID": 16648,
+          "quantity": 58
+        }
+      ]
+    },
+    "Scheelite": {
+      "typeID": 45497,
+      "name": "Scheelite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16637,
+          "quantity": 40
+        }
+      ]
+    },
+    "Shimmering Chromite": {
+      "typeID": 46303,
+      "name": "Shimmering Chromite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 20
+        },
+        {
+          "typeID": 16641,
+          "quantity": 80
+        }
+      ]
+    },
+    "Shimmering Otavite": {
+      "typeID": 46297,
+      "name": "Shimmering Otavite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 20
+        },
+        {
+          "typeID": 16643,
+          "quantity": 80
+        }
+      ]
+    },
+    "Shimmering Sperrylite": {
+      "typeID": 46299,
+      "name": "Shimmering Sperrylite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 20
+        },
+        {
+          "typeID": 16644,
+          "quantity": 80
+        }
+      ]
+    },
+    "Shimmering Vanadinite": {
+      "typeID": 46301,
+      "name": "Shimmering Vanadinite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 20
+        },
+        {
+          "typeID": 16642,
+          "quantity": 80
+        }
+      ]
+    },
+    "Shining Loparite": {
+      "typeID": 46317,
+      "name": "Shining Loparite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16633,
+          "quantity": 40
+        },
+        {
+          "typeID": 16639,
+          "quantity": 40
+        },
+        {
+          "typeID": 16644,
+          "quantity": 20
+        },
+        {
+          "typeID": 16652,
+          "quantity": 44
+        }
+      ]
+    },
+    "Shining Monazite": {
+      "typeID": 46315,
+      "name": "Shining Monazite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 40
+        },
+        {
+          "typeID": 16637,
+          "quantity": 40
+        },
+        {
+          "typeID": 16641,
+          "quantity": 20
+        },
+        {
+          "typeID": 16651,
+          "quantity": 44
+        }
+      ]
+    },
+    "Shining Xenotime": {
+      "typeID": 46313,
+      "name": "Shining Xenotime",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 40
+        },
+        {
+          "typeID": 16640,
+          "quantity": 40
+        },
+        {
+          "typeID": 16642,
+          "quantity": 20
+        },
+        {
+          "typeID": 16650,
+          "quantity": 44
+        }
+      ]
+    },
+    "Shining Ytterbite": {
+      "typeID": 46319,
+      "name": "Shining Ytterbite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 40
+        },
+        {
+          "typeID": 16638,
+          "quantity": 40
+        },
+        {
+          "typeID": 16643,
+          "quantity": 20
+        },
+        {
+          "typeID": 16653,
+          "quantity": 44
+        }
+      ]
+    },
+    "Sperrylite": {
+      "typeID": 45499,
+      "name": "Sperrylite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16635,
+          "quantity": 10
+        },
+        {
+          "typeID": 16644,
+          "quantity": 40
+        }
+      ]
+    },
+    "Titanite": {
+      "typeID": 45496,
+      "name": "Titanite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16638,
+          "quantity": 40
+        }
+      ]
+    },
+    "Twinkling Cobaltite": {
+      "typeID": 46289,
+      "name": "Twinkling Cobaltite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16640,
+          "quantity": 80
+        }
+      ]
+    },
+    "Twinkling Euxenite": {
+      "typeID": 46291,
+      "name": "Twinkling Euxenite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16639,
+          "quantity": 80
+        }
+      ]
+    },
+    "Twinkling Scheelite": {
+      "typeID": 46295,
+      "name": "Twinkling Scheelite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16637,
+          "quantity": 80
+        }
+      ]
+    },
+    "Twinkling Titanite": {
+      "typeID": 46293,
+      "name": "Twinkling Titanite",
+      "volume": 10.0,
+      "group": "Common Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16638,
+          "quantity": 80
+        }
+      ]
+    },
+    "Vanadinite": {
+      "typeID": 45500,
+      "name": "Vanadinite",
+      "volume": 10.0,
+      "group": "Uncommon Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 10
+        },
+        {
+          "typeID": 16642,
+          "quantity": 40
+        }
+      ]
+    },
+    "Xenotime": {
+      "typeID": 45510,
+      "name": "Xenotime",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16634,
+          "quantity": 20
+        },
+        {
+          "typeID": 16640,
+          "quantity": 20
+        },
+        {
+          "typeID": 16642,
+          "quantity": 10
+        },
+        {
+          "typeID": 16650,
+          "quantity": 22
+        }
+      ]
+    },
+    "Ytterbite": {
+      "typeID": 45513,
+      "name": "Ytterbite",
+      "volume": 10.0,
+      "group": "Exceptional Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 20
+        },
+        {
+          "typeID": 16638,
+          "quantity": 20
+        },
+        {
+          "typeID": 16643,
+          "quantity": 10
+        },
+        {
+          "typeID": 16653,
+          "quantity": 22
+        }
+      ]
+    },
+    "Zircon": {
+      "typeID": 45503,
+      "name": "Zircon",
+      "volume": 10.0,
+      "group": "Rare Moon Asteroids",
+      "refined_output": [
+        {
+          "typeID": 16636,
+          "quantity": 15
+        },
+        {
+          "typeID": 16638,
+          "quantity": 10
+        },
+        {
+          "typeID": 16648,
+          "quantity": 50
+        }
+      ]
+    }
+  }
+}

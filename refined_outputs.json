@@ -1,0 +1,3147 @@
+[
+  {
+    "typeID": 34,
+    "name": "Tritanium",
+    "volume": 0.01
+  },
+  {
+    "typeID": 35,
+    "name": "Pyerite",
+    "volume": 0.01
+  },
+  {
+    "typeID": 36,
+    "name": "Mexallon",
+    "volume": 0.01
+  },
+  {
+    "typeID": 37,
+    "name": "Isogen",
+    "volume": 0.01
+  },
+  {
+    "typeID": 38,
+    "name": "Nocxium",
+    "volume": 0.01
+  },
+  {
+    "typeID": 39,
+    "name": "Zydrine",
+    "volume": 0.01
+  },
+  {
+    "typeID": 40,
+    "name": "Megacyte",
+    "volume": 0.01
+  },
+  {
+    "typeID": 42,
+    "name": "Spiced Wine",
+    "volume": 0.5
+  },
+  {
+    "typeID": 44,
+    "name": "Enriched Uranium",
+    "volume": 0.75
+  },
+  {
+    "typeID": 587,
+    "name": "Rifter",
+    "volume": 27289.0
+  },
+  {
+    "typeID": 593,
+    "name": "Tristan",
+    "volume": 26500.0
+  },
+  {
+    "typeID": 594,
+    "name": "Incursus",
+    "volume": 29500.0
+  },
+  {
+    "typeID": 597,
+    "name": "Punisher",
+    "volume": 28600.0
+  },
+  {
+    "typeID": 603,
+    "name": "Merlin",
+    "volume": 16500.0
+  },
+  {
+    "typeID": 621,
+    "name": "Caracal",
+    "volume": 92000.0
+  },
+  {
+    "typeID": 622,
+    "name": "Stabber",
+    "volume": 80000.0
+  },
+  {
+    "typeID": 626,
+    "name": "Vexor",
+    "volume": 115000.0
+  },
+  {
+    "typeID": 627,
+    "name": "Thorax",
+    "volume": 112000.0
+  },
+  {
+    "typeID": 638,
+    "name": "Raven",
+    "volume": 470000.0
+  },
+  {
+    "typeID": 639,
+    "name": "Tempest",
+    "volume": 450000.0
+  },
+  {
+    "typeID": 641,
+    "name": "Megathron",
+    "volume": 470000.0
+  },
+  {
+    "typeID": 642,
+    "name": "Apocalypse",
+    "volume": 470000.0
+  },
+  {
+    "typeID": 643,
+    "name": "Armageddon",
+    "volume": 470000.0
+  },
+  {
+    "typeID": 645,
+    "name": "Dominix",
+    "volume": 454500.0
+  },
+  {
+    "typeID": 649,
+    "name": "Tayra",
+    "volume": 270000.0
+  },
+  {
+    "typeID": 652,
+    "name": "Mammoth",
+    "volume": 255000.0
+  },
+  {
+    "typeID": 657,
+    "name": "Iteron Mark V",
+    "volume": 275000.0
+  },
+  {
+    "typeID": 1944,
+    "name": "Bestower",
+    "volume": 260000.0
+  },
+  {
+    "typeID": 2006,
+    "name": "Omen",
+    "volume": 118000.0
+  },
+  {
+    "typeID": 2319,
+    "name": "Test Cultures",
+    "volume": 0.75
+  },
+  {
+    "typeID": 2329,
+    "name": "Biocells",
+    "volume": 0.75
+  },
+  {
+    "typeID": 2345,
+    "name": "Camera Drones",
+    "volume": 3.0
+  },
+  {
+    "typeID": 2346,
+    "name": "Synthetic Synapses",
+    "volume": 3.0
+  },
+  {
+    "typeID": 2348,
+    "name": "Gel-Matrix Biopaste",
+    "volume": 3.0
+  },
+  {
+    "typeID": 2349,
+    "name": "Supercomputers",
+    "volume": 3.0
+  },
+  {
+    "typeID": 2351,
+    "name": "Smartfab Units",
+    "volume": 3.0
+  },
+  {
+    "typeID": 2352,
+    "name": "Nuclear Reactors",
+    "volume": 3.0
+  },
+  {
+    "typeID": 2354,
+    "name": "Neocoms",
+    "volume": 3.0
+  },
+  {
+    "typeID": 2360,
+    "name": "Industrial Explosives",
+    "volume": 3.0
+  },
+  {
+    "typeID": 2361,
+    "name": "Hermetic Membranes",
+    "volume": 3.0
+  },
+  {
+    "typeID": 2367,
+    "name": "Cryoprotectant Solution",
+    "volume": 3.0
+  },
+  {
+    "typeID": 2401,
+    "name": "Chiral Structures",
+    "volume": 0.19
+  },
+  {
+    "typeID": 2463,
+    "name": "Nanites",
+    "volume": 0.75
+  },
+  {
+    "typeID": 2867,
+    "name": "Broadcast Node",
+    "volume": 50.0
+  },
+  {
+    "typeID": 2868,
+    "name": "Integrity Response Drones",
+    "volume": 50.0
+  },
+  {
+    "typeID": 2869,
+    "name": "Nano-Factory",
+    "volume": 50.0
+  },
+  {
+    "typeID": 2870,
+    "name": "Organic Mortar Applicators",
+    "volume": 50.0
+  },
+  {
+    "typeID": 2871,
+    "name": "Recursive Computing Module",
+    "volume": 50.0
+  },
+  {
+    "typeID": 2872,
+    "name": "Self-Harmonizing Power Core",
+    "volume": 50.0
+  },
+  {
+    "typeID": 2875,
+    "name": "Sterile Conduits",
+    "volume": 50.0
+  },
+  {
+    "typeID": 2876,
+    "name": "Wetware Mainframe",
+    "volume": 50.0
+  },
+  {
+    "typeID": 3583,
+    "name": "Badly Mangled Components",
+    "volume": 4.0
+  },
+  {
+    "typeID": 3584,
+    "name": "True Slave Decryption Node",
+    "volume": 4.0
+  },
+  {
+    "typeID": 3585,
+    "name": "Mangled Sansha Data Analyzer",
+    "volume": 5.0
+  },
+  {
+    "typeID": 3645,
+    "name": "Water",
+    "volume": 0.19
+  },
+  {
+    "typeID": 3647,
+    "name": "Holoreels",
+    "volume": 0.5
+  },
+  {
+    "typeID": 3683,
+    "name": "Oxygen",
+    "volume": 0.19
+  },
+  {
+    "typeID": 3685,
+    "name": "Hydrogen Batteries",
+    "volume": 1.0
+  },
+  {
+    "typeID": 3687,
+    "name": "Electronic Parts",
+    "volume": 1.0
+  },
+  {
+    "typeID": 3689,
+    "name": "Mechanical Parts",
+    "volume": 0.75
+  },
+  {
+    "typeID": 3691,
+    "name": "Synthetic Oil",
+    "volume": 0.75
+  },
+  {
+    "typeID": 3697,
+    "name": "Silicate Glass",
+    "volume": 0.75
+  },
+  {
+    "typeID": 3699,
+    "name": "Quafe",
+    "volume": 0.1
+  },
+  {
+    "typeID": 3715,
+    "name": "Frozen Food",
+    "volume": 0.5
+  },
+  {
+    "typeID": 3721,
+    "name": "Slaves",
+    "volume": 5.0
+  },
+  {
+    "typeID": 3727,
+    "name": "Plutonium",
+    "volume": 1.0
+  },
+  {
+    "typeID": 3779,
+    "name": "Biomass",
+    "volume": 0.19
+  },
+  {
+    "typeID": 3810,
+    "name": "Marines",
+    "volume": 2.0
+  },
+  {
+    "typeID": 3828,
+    "name": "Construction Blocks",
+    "volume": 0.75
+  },
+  {
+    "typeID": 3925,
+    "name": "Reclaimed Organics",
+    "volume": 2.0
+  },
+  {
+    "typeID": 3926,
+    "name": "Augmented Stem Cells",
+    "volume": 0.38
+  },
+  {
+    "typeID": 4051,
+    "name": "Nitrogen Fuel Block",
+    "volume": 5.0
+  },
+  {
+    "typeID": 4312,
+    "name": "Oxygen Fuel Block",
+    "volume": 5.0
+  },
+  {
+    "typeID": 9826,
+    "name": "Carbon",
+    "volume": 0.01
+  },
+  {
+    "typeID": 9828,
+    "name": "Silicon",
+    "volume": 0.19
+  },
+  {
+    "typeID": 9830,
+    "name": "Rocket Fuel",
+    "volume": 0.75
+  },
+  {
+    "typeID": 9832,
+    "name": "Coolant",
+    "volume": 0.75
+  },
+  {
+    "typeID": 9834,
+    "name": "Guidance Systems",
+    "volume": 3.0
+  },
+  {
+    "typeID": 9838,
+    "name": "Superconductors",
+    "volume": 0.75
+  },
+  {
+    "typeID": 9840,
+    "name": "Transmitter",
+    "volume": 0.75
+  },
+  {
+    "typeID": 9842,
+    "name": "Miniature Electronics",
+    "volume": 0.75
+  },
+  {
+    "typeID": 9844,
+    "name": "Small Arms",
+    "volume": 2.0
+  },
+  {
+    "typeID": 9846,
+    "name": "Planetary Vehicles",
+    "volume": 3.0
+  },
+  {
+    "typeID": 9848,
+    "name": "Robotics",
+    "volume": 3.0
+  },
+  {
+    "typeID": 11399,
+    "name": "Morphite",
+    "volume": 0.01
+  },
+  {
+    "typeID": 11475,
+    "name": "R.A.M.- Armor/Hull Tech",
+    "volume": 0.04
+  },
+  {
+    "typeID": 11478,
+    "name": "R.A.M.- Starship Tech",
+    "volume": 0.04
+  },
+  {
+    "typeID": 11481,
+    "name": "R.A.M.- Robotics",
+    "volume": 0.04
+  },
+  {
+    "typeID": 11483,
+    "name": "R.A.M.- Electronics",
+    "volume": 0.04
+  },
+  {
+    "typeID": 11530,
+    "name": "Plasma Thruster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11531,
+    "name": "Ion Thruster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11532,
+    "name": "Fusion Thruster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11533,
+    "name": "Magpulse Thruster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11534,
+    "name": "Gravimetric Sensor Cluster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11535,
+    "name": "Magnetometric Sensor Cluster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11536,
+    "name": "Ladar Sensor Cluster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11537,
+    "name": "Radar Sensor Cluster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11538,
+    "name": "Nanomechanical Microprocessor",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11539,
+    "name": "Nanoelectrical Microprocessor",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11540,
+    "name": "Quantum Microprocessor",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11541,
+    "name": "Photon Microprocessor",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11542,
+    "name": "Fernite Carbide Composite Armor Plate",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11543,
+    "name": "Tungsten Carbide Armor Plate",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11544,
+    "name": "Titanium Diborite Armor Plate",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11545,
+    "name": "Crystalline Carbonide Armor Plate",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11547,
+    "name": "Fusion Reactor Unit",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11548,
+    "name": "Nuclear Reactor Unit",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11549,
+    "name": "Antimatter Reactor Unit",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11550,
+    "name": "Graviton Reactor Unit",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11551,
+    "name": "Electrolytic Capacitor Unit",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11552,
+    "name": "Scalar Capacitor Unit",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11553,
+    "name": "Oscillator Capacitor Unit",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11554,
+    "name": "Tesseract Capacitor Unit",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11555,
+    "name": "Deflection Shield Emitter",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11556,
+    "name": "Pulse Shield Emitter",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11557,
+    "name": "Linear Shield Emitter",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11558,
+    "name": "Sustained Shield Emitter",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11688,
+    "name": "Particle Accelerator Unit",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11689,
+    "name": "Laser Focusing Crystals",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11690,
+    "name": "Superconductor Rails",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11691,
+    "name": "Thermonuclear Trigger Unit",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11692,
+    "name": "Nuclear Pulse Generator",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11693,
+    "name": "Graviton Pulse Generator",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11694,
+    "name": "EM Pulse Generator",
+    "volume": 1.0
+  },
+  {
+    "typeID": 11695,
+    "name": "Plasma Pulse Generator",
+    "volume": 1.0
+  },
+  {
+    "typeID": 12005,
+    "name": "Ishtar",
+    "volume": 115000.0
+  },
+  {
+    "typeID": 12011,
+    "name": "Eagle",
+    "volume": 101000.0
+  },
+  {
+    "typeID": 12243,
+    "name": "Science Graduates",
+    "volume": 3.0
+  },
+  {
+    "typeID": 12836,
+    "name": "Transcranial Microcontrollers",
+    "volume": 3.0
+  },
+  {
+    "typeID": 13267,
+    "name": "Janitor",
+    "volume": 3.0
+  },
+  {
+    "typeID": 16227,
+    "name": "Ferox",
+    "volume": 252000.0
+  },
+  {
+    "typeID": 16229,
+    "name": "Brutix",
+    "volume": 270000.0
+  },
+  {
+    "typeID": 16231,
+    "name": "Cyclone",
+    "volume": 216000.0
+  },
+  {
+    "typeID": 16233,
+    "name": "Prophecy",
+    "volume": 234000.0
+  },
+  {
+    "typeID": 16236,
+    "name": "Coercer",
+    "volume": 47000.0
+  },
+  {
+    "typeID": 16238,
+    "name": "Cormorant",
+    "volume": 52000.0
+  },
+  {
+    "typeID": 16240,
+    "name": "Catalyst",
+    "volume": 55000.0
+  },
+  {
+    "typeID": 16242,
+    "name": "Thrasher",
+    "volume": 43000.0
+  },
+  {
+    "typeID": 16272,
+    "name": "Heavy Water",
+    "volume": 0.4
+  },
+  {
+    "typeID": 16273,
+    "name": "Liquid Ozone",
+    "volume": 0.4
+  },
+  {
+    "typeID": 16274,
+    "name": "Helium Isotopes",
+    "volume": 0.03
+  },
+  {
+    "typeID": 16275,
+    "name": "Strontium Clathrates",
+    "volume": 3.0
+  },
+  {
+    "typeID": 16633,
+    "name": "Hydrocarbons",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16634,
+    "name": "Atmospheric Gases",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16635,
+    "name": "Evaporite Deposits",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16636,
+    "name": "Silicates",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16637,
+    "name": "Tungsten",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16638,
+    "name": "Titanium",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16639,
+    "name": "Scandium",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16640,
+    "name": "Cobalt",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16641,
+    "name": "Chromium",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16642,
+    "name": "Vanadium",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16643,
+    "name": "Cadmium",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16644,
+    "name": "Platinum",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16646,
+    "name": "Mercury",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16647,
+    "name": "Caesium",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16648,
+    "name": "Hafnium",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16649,
+    "name": "Technetium",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16650,
+    "name": "Dysprosium",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16651,
+    "name": "Neodymium",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16652,
+    "name": "Promethium",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16653,
+    "name": "Thulium",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16654,
+    "name": "Titanium Chromide",
+    "volume": 0.2
+  },
+  {
+    "typeID": 16655,
+    "name": "Crystallite Alloy",
+    "volume": 0.2
+  },
+  {
+    "typeID": 16656,
+    "name": "Fernite Alloy",
+    "volume": 0.2
+  },
+  {
+    "typeID": 16657,
+    "name": "Rolled Tungsten Alloy",
+    "volume": 0.2
+  },
+  {
+    "typeID": 16662,
+    "name": "Platinum Technite",
+    "volume": 0.2
+  },
+  {
+    "typeID": 16663,
+    "name": "Caesarium Cadmide",
+    "volume": 0.2
+  },
+  {
+    "typeID": 16664,
+    "name": "Solerium",
+    "volume": 0.2
+  },
+  {
+    "typeID": 16665,
+    "name": "Hexite",
+    "volume": 0.2
+  },
+  {
+    "typeID": 16666,
+    "name": "Hyperflurite",
+    "volume": 0.2
+  },
+  {
+    "typeID": 16667,
+    "name": "Neo Mercurite",
+    "volume": 0.2
+  },
+  {
+    "typeID": 16668,
+    "name": "Dysporite",
+    "volume": 0.2
+  },
+  {
+    "typeID": 16669,
+    "name": "Ferrofluid",
+    "volume": 0.2
+  },
+  {
+    "typeID": 16670,
+    "name": "Crystalline Carbonide",
+    "volume": 0.01
+  },
+  {
+    "typeID": 16671,
+    "name": "Titanium Carbide",
+    "volume": 0.01
+  },
+  {
+    "typeID": 16672,
+    "name": "Tungsten Carbide",
+    "volume": 0.01
+  },
+  {
+    "typeID": 16673,
+    "name": "Fernite Carbide",
+    "volume": 0.01
+  },
+  {
+    "typeID": 16678,
+    "name": "Sylramic Fibers",
+    "volume": 0.05
+  },
+  {
+    "typeID": 16679,
+    "name": "Fullerides",
+    "volume": 0.15
+  },
+  {
+    "typeID": 16680,
+    "name": "Phenolic Composites",
+    "volume": 0.2
+  },
+  {
+    "typeID": 16681,
+    "name": "Nanotransistors",
+    "volume": 0.25
+  },
+  {
+    "typeID": 16682,
+    "name": "Hypersynaptic Fibers",
+    "volume": 0.6
+  },
+  {
+    "typeID": 16683,
+    "name": "Ferrogel",
+    "volume": 1.0
+  },
+  {
+    "typeID": 17136,
+    "name": "Ukomi Superconductors",
+    "volume": 3.0
+  },
+  {
+    "typeID": 17317,
+    "name": "Fermionic Condensates",
+    "volume": 1.3
+  },
+  {
+    "typeID": 17392,
+    "name": "Data Chips",
+    "volume": 3.0
+  },
+  {
+    "typeID": 17715,
+    "name": "Gila",
+    "volume": 101000.0
+  },
+  {
+    "typeID": 17738,
+    "name": "Machariel",
+    "volume": 470000.0
+  },
+  {
+    "typeID": 17769,
+    "name": "Fluxed Condensates",
+    "volume": 0.2
+  },
+  {
+    "typeID": 17841,
+    "name": "Federation Navy Comet",
+    "volume": 16500.0
+  },
+  {
+    "typeID": 17887,
+    "name": "Oxygen Isotopes",
+    "volume": 0.03
+  },
+  {
+    "typeID": 17888,
+    "name": "Nitrogen Isotopes",
+    "volume": 0.03
+  },
+  {
+    "typeID": 17889,
+    "name": "Hydrogen Isotopes",
+    "volume": 0.03
+  },
+  {
+    "typeID": 17898,
+    "name": "High-Tech Transmitters",
+    "volume": 3.0
+  },
+  {
+    "typeID": 17918,
+    "name": "Rattlesnake",
+    "volume": 470000.0
+  },
+  {
+    "typeID": 17959,
+    "name": "Vanadium Hafnite",
+    "volume": 0.2
+  },
+  {
+    "typeID": 17960,
+    "name": "Prometium",
+    "volume": 0.2
+  },
+  {
+    "typeID": 20110,
+    "name": "Sleeper Foundation Block",
+    "volume": 1.0
+  },
+  {
+    "typeID": 20410,
+    "name": "Datacore - Gallentean Starship Engineering",
+    "volume": 0.1
+  },
+  {
+    "typeID": 20411,
+    "name": "Datacore - High Energy Physics",
+    "volume": 0.1
+  },
+  {
+    "typeID": 20431,
+    "name": "Black Morphite",
+    "volume": 0.01
+  },
+  {
+    "typeID": 21009,
+    "name": "Capital Propulsion Engine",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 21011,
+    "name": "Capital Turret Hardpoint",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 21013,
+    "name": "Capital Sensor Cluster",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 21017,
+    "name": "Capital Armor Plates",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 21019,
+    "name": "Capital Capacitor Battery",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 21021,
+    "name": "Capital Power Generator",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 21023,
+    "name": "Capital Shield Emitter",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 21025,
+    "name": "Capital Jump Drive",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 21027,
+    "name": "Capital Cargo Bay",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 21029,
+    "name": "Capital Drone Bay",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 21035,
+    "name": "Capital Computer System",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 21037,
+    "name": "Capital Construction Parts",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 21039,
+    "name": "Capital Siege Array",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 21041,
+    "name": "Capital Launcher Hardpoint",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 21073,
+    "name": "Sleeper Split Cables",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21074,
+    "name": "Talocan Sketch Books",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21075,
+    "name": "Talocan Molecule Binder",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21076,
+    "name": "Talocan Stasis Inverter",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21077,
+    "name": "Talocan Info Shards",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21078,
+    "name": "Talocan Reflective Sheets",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21079,
+    "name": "Talocan Perpetual Clock",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21080,
+    "name": "Talocan Solid Atomizer",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21081,
+    "name": "Talocan Mechanical Gears",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21082,
+    "name": "Talocan System Interface Unit",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21084,
+    "name": "Talocan Mathematical Schematics",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21085,
+    "name": "Talocan Automation Accounts",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21086,
+    "name": "Talocan Partition Plates",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21087,
+    "name": "Talocan Intricate Formulas",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21088,
+    "name": "Talocan Stasis Deflector",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21089,
+    "name": "Talocan Ignition Device",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21568,
+    "name": "Sleeper Data Interface Protocol",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21569,
+    "name": "Sleeper Profound Research Notes",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21570,
+    "name": "Sleeper Manuscripts",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21571,
+    "name": "Sleeper Technical Schematics",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21572,
+    "name": "Sleeper Data Crystals",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21584,
+    "name": "Sleeper Micro Circuits",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21585,
+    "name": "Sleeper Cryo Batteries",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21586,
+    "name": "Sleeper Virtual Energizer",
+    "volume": 1.0
+  },
+  {
+    "typeID": 21587,
+    "name": "Electronic Link",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21588,
+    "name": "Spare Parts",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21589,
+    "name": "Power Couplings",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21590,
+    "name": "Armor Blocks",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21591,
+    "name": "Computer Chips",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21592,
+    "name": "Electric Conduit",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21593,
+    "name": "Mechanic Parts",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21594,
+    "name": "Energy Cells",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21595,
+    "name": "Construction Alloy",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21596,
+    "name": "Data Processor",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21719,
+    "name": "Sleeper Hyperbooster",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21720,
+    "name": "Sleeper Thermal Regulator",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21721,
+    "name": "Sleeper Heat Nullifying Coil",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21722,
+    "name": "Sleeper Nanite Cluster",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21723,
+    "name": "Sleeper Reintegration Control",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21724,
+    "name": "Guristas Heavy Weapon Console",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21725,
+    "name": "Guristas Medium Weapon Console",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21726,
+    "name": "Guristas Light Weapon Console",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21727,
+    "name": "Guristas Gravity Focuser",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21728,
+    "name": "Guristas Graviton Hardening",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21729,
+    "name": "Angel Advanced Trigger Mechanism",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21730,
+    "name": "Angel Standard Trigger Mechanism",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21731,
+    "name": "Angel Simple Trigger Mechanism",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21732,
+    "name": "Angel Spatial Analyzer",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21733,
+    "name": "Angel Dynamic Calibrator",
+    "volume": 0.1
+  },
+  {
+    "typeID": 21815,
+    "name": "Elite Drone AI",
+    "volume": 0.01
+  },
+  {
+    "typeID": 21947,
+    "name": "Structure Construction Parts",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 21949,
+    "name": "Structure Hangar Array",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 21951,
+    "name": "Structure Storage Bay",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 21953,
+    "name": "Structure Laboratory",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 21955,
+    "name": "Structure Factory",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 21957,
+    "name": "Structure Repair Facility",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 21959,
+    "name": "Structure Reprocessing Plant",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 21961,
+    "name": "Structure Docking Bay",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 21963,
+    "name": "Structure Market Network",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 21965,
+    "name": "Structure Medical Center",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 21967,
+    "name": "Structure Office Center",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 21969,
+    "name": "Structure Mission Network",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 22175,
+    "name": "Data Analyzer I",
+    "volume": 5.0
+  },
+  {
+    "typeID": 22548,
+    "name": "Mackinaw",
+    "volume": 150000.0
+  },
+  {
+    "typeID": 23128,
+    "name": "Yan Jung Crystal Cylinder",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23129,
+    "name": "Yan Jung Paradox Box",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23130,
+    "name": "Yan Jung Thunder Kite",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23131,
+    "name": "Yan Jung Void Machine",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23132,
+    "name": "Yan Jung Tachyon Stetoscope",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23133,
+    "name": "Takmahl Phrenic Appendix",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23134,
+    "name": "Takmahl Dynamic Gauge",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23135,
+    "name": "Takmahl Gyro Ballast",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23136,
+    "name": "Takmahl Biodroid Controller",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23137,
+    "name": "Takmahl Quantum Sphere",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23138,
+    "name": "Yan Jung Null Shell",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23139,
+    "name": "Yan Jung Glass Scale",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23140,
+    "name": "Yan Jung Plenary Wire",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23141,
+    "name": "Yan Jung Silk Armor",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23142,
+    "name": "Yan Jung Nano Fabric",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23143,
+    "name": "Takmahl Diamond Rod",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23144,
+    "name": "Takmahl Cohere Cord",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23145,
+    "name": "Takmahl Solid Mox",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23146,
+    "name": "Takmahl Magnetic Slab",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23147,
+    "name": "Takmahl Tri-polished Lens",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23148,
+    "name": "Blood Raider Limited Ballistic Control",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23149,
+    "name": "Blood Raider Regular Ballistic Control",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23150,
+    "name": "Blood Raider Extreme Ballistic Control",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23151,
+    "name": "Blood Raider Weapon Integration Unit",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23152,
+    "name": "Blood Raider Power Redistributor",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23153,
+    "name": "Serpentis Plain Target Guider",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23154,
+    "name": "Serpentis Basic Target Guider",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23155,
+    "name": "Serpentis Complex Target Guider",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23156,
+    "name": "Serpentis 3D Scanner Gamut",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23157,
+    "name": "Serpentis Multi-tasking Processor",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23158,
+    "name": "Positron Cord",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23159,
+    "name": "Auxiliary Parts",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23160,
+    "name": "Force Cable",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23161,
+    "name": "Elemental Crux",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23162,
+    "name": "Analog Panel",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23163,
+    "name": "Current Amplifier",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23164,
+    "name": "Second-hand Parts",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23165,
+    "name": "Heat Depressor",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23166,
+    "name": "Internal Bulkhead",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23167,
+    "name": "Mainframe Bit",
+    "volume": 0.1
+  },
+  {
+    "typeID": 23168,
+    "name": "Yan Jung Info Matrix",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23169,
+    "name": "Yan Jung Vellum Etch",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23170,
+    "name": "Yan Jung Trigonometric Laws",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23171,
+    "name": "Yan Jung Semiotic Theory",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23172,
+    "name": "Yan Jung Singularity Fact Sheet",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23173,
+    "name": "Takmahl Binary Texts",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23174,
+    "name": "Takmahl Fractal Sheet",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23175,
+    "name": "Takmahl Centrifugal Primer",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23176,
+    "name": "Takmahl Geometric Design",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23177,
+    "name": "Takmahl Astral Treatment",
+    "volume": 1.0
+  },
+  {
+    "typeID": 23882,
+    "name": "Standard Decoding Device",
+    "volume": 50.0
+  },
+  {
+    "typeID": 24289,
+    "name": "Encoding Matrix Component",
+    "volume": 2.0
+  },
+  {
+    "typeID": 24545,
+    "name": "Capital Jump Bridge Array",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 24547,
+    "name": "Capital Clone Vat Bay",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 24556,
+    "name": "Capital Doomsday Weapon Mount",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 24558,
+    "name": "Capital Ship Maintenance Bay",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 24560,
+    "name": "Capital Corporate Hangar Bay",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 24688,
+    "name": "Rokh",
+    "volume": 470000.0
+  },
+  {
+    "typeID": 24690,
+    "name": "Hyperion",
+    "volume": 470000.0
+  },
+  {
+    "typeID": 24692,
+    "name": "Abaddon",
+    "volume": 470000.0
+  },
+  {
+    "typeID": 24694,
+    "name": "Maelstrom",
+    "volume": 470000.0
+  },
+  {
+    "typeID": 24698,
+    "name": "Drake",
+    "volume": 252000.0
+  },
+  {
+    "typeID": 25237,
+    "name": "Pure Standard Blue Pill Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25241,
+    "name": "Pure Improved Blue Pill Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25242,
+    "name": "Pure Standard Crash Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25252,
+    "name": "Pure Standard Frentix Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25268,
+    "name": "Amber Cytoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 25273,
+    "name": "Golden Cytoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 25274,
+    "name": "Viridian Cytoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 25275,
+    "name": "Celadon Cytoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 25276,
+    "name": "Malachite Cytoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 25277,
+    "name": "Lime Cytoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 25278,
+    "name": "Vermillion Cytoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 25279,
+    "name": "Azure Cytoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 25283,
+    "name": "Pure Strong Blue Pill Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25330,
+    "name": "Pure Standard Drop Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25331,
+    "name": "Pure Standard Exile Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25332,
+    "name": "Pure Standard Mindflood Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25333,
+    "name": "Pure Standard X-Instinct Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25334,
+    "name": "Pure Standard Sooth Sayer Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25335,
+    "name": "Pure Improved Crash Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25336,
+    "name": "Pure Improved Drop Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25337,
+    "name": "Pure Improved Exile Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25338,
+    "name": "Pure Improved Mindflood Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25339,
+    "name": "Pure Improved Frentix Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25340,
+    "name": "Pure Improved X-Instinct Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25341,
+    "name": "Pure Improved Sooth Sayer Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25342,
+    "name": "Pure Strong Crash Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25343,
+    "name": "Pure Strong Drop Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25344,
+    "name": "Pure Strong Exile Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25345,
+    "name": "Pure Strong Mindflood Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25346,
+    "name": "Pure Strong Frentix Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25347,
+    "name": "Pure Strong X-Instinct Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25348,
+    "name": "Pure Strong Sooth Sayer Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 25588,
+    "name": "Scorched Telemetry Processor",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25589,
+    "name": "Malfunctioning Shield Emitter",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25590,
+    "name": "Contaminated Nanite Compound",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25591,
+    "name": "Contaminated Lorentz Fluid",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25592,
+    "name": "Defective Current Pump",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25593,
+    "name": "Smashed Trigger Unit",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25594,
+    "name": "Tangled Power Conduit",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25595,
+    "name": "Alloyed Tritanium Bar",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25596,
+    "name": "Broken Drone Transceiver",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25597,
+    "name": "Damaged Artificial Neural Network",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25598,
+    "name": "Tripped Power Circuit",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25599,
+    "name": "Charred Micro Circuit",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25600,
+    "name": "Burned Logic Circuit",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25601,
+    "name": "Fried Interface Circuit",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25602,
+    "name": "Thruster Console",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25603,
+    "name": "Melted Capacitor Console",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25604,
+    "name": "Conductive Polymer",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25605,
+    "name": "Armor Plates",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25606,
+    "name": "Ward Console",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25607,
+    "name": "Telemetry Processor",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25608,
+    "name": "Intact Shield Emitter",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25609,
+    "name": "Nanite Compound",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25610,
+    "name": "Lorentz Fluid",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25611,
+    "name": "Current Pump",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25612,
+    "name": "Trigger Unit",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25613,
+    "name": "Power Conduit",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25614,
+    "name": "Single-crystal Superalloy I-beam",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25615,
+    "name": "Drone Transceiver",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25616,
+    "name": "Artificial Neural Network",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25617,
+    "name": "Power Circuit",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25618,
+    "name": "Micro Circuit",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25619,
+    "name": "Logic Circuit",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25620,
+    "name": "Interface Circuit",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25621,
+    "name": "Impetus Console",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25622,
+    "name": "Capacitor Console",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25623,
+    "name": "Conductive Thermoplastic",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25624,
+    "name": "Intact Armor Plates",
+    "volume": 0.01
+  },
+  {
+    "typeID": 25625,
+    "name": "Enhanced Ward Console",
+    "volume": 0.01
+  },
+  {
+    "typeID": 27029,
+    "name": "Chalcopyrite",
+    "volume": 0.01
+  },
+  {
+    "typeID": 27274,
+    "name": "Villard Wheel",
+    "volume": 25000.0
+  },
+  {
+    "typeID": 28352,
+    "name": "Rorqual",
+    "volume": 14500000.0
+  },
+  {
+    "typeID": 28361,
+    "name": "Drone Synaptic Relay Wiring",
+    "volume": 0.01
+  },
+  {
+    "typeID": 28362,
+    "name": "Drone Capillary Fluid",
+    "volume": 0.02
+  },
+  {
+    "typeID": 28363,
+    "name": "Drone Cerebral Fragment",
+    "volume": 0.03
+  },
+  {
+    "typeID": 28364,
+    "name": "Drone Tactical Limb",
+    "volume": 0.07
+  },
+  {
+    "typeID": 28365,
+    "name": "Drone Epidermal Shielding Chunk",
+    "volume": 0.1
+  },
+  {
+    "typeID": 28366,
+    "name": "Drone Coronary Unit",
+    "volume": 0.08
+  },
+  {
+    "typeID": 28606,
+    "name": "Orca",
+    "volume": 10250000.0
+  },
+  {
+    "typeID": 28629,
+    "name": "Gamboge Cytoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 28630,
+    "name": "Chartreuse Cytoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 28659,
+    "name": "Paladin",
+    "volume": 470000.0
+  },
+  {
+    "typeID": 28661,
+    "name": "Kronos",
+    "volume": 470000.0
+  },
+  {
+    "typeID": 28665,
+    "name": "Vargur",
+    "volume": 450000.0
+  },
+  {
+    "typeID": 28686,
+    "name": "Pure Synth Blue Pill Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 28687,
+    "name": "Pure Synth Crash Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 28688,
+    "name": "Pure Synth Drop Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 28689,
+    "name": "Pure Synth Exile Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 28690,
+    "name": "Pure Synth Frentix Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 28691,
+    "name": "Pure Synth Mindflood Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 28692,
+    "name": "Pure Synth Sooth Sayer Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 28693,
+    "name": "Pure Synth X-Instinct Booster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 28694,
+    "name": "Amber Mykoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 28695,
+    "name": "Azure Mykoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 28696,
+    "name": "Celadon Mykoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 28697,
+    "name": "Golden Mykoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 28698,
+    "name": "Lime Mykoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 28699,
+    "name": "Malachite Mykoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 28700,
+    "name": "Vermillion Mykoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 28701,
+    "name": "Viridian Mykoserocin",
+    "volume": 10.0
+  },
+  {
+    "typeID": 28710,
+    "name": "Golem",
+    "volume": 470000.0
+  },
+  {
+    "typeID": 29039,
+    "name": "Capital Antimatter Reactor Unit",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29041,
+    "name": "Capital Crystalline Carbonide Armor Plate",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29043,
+    "name": "Capital Deflection Shield Emitter",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29045,
+    "name": "Capital Electrolytic Capacitor Unit",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29049,
+    "name": "Capital Fernite Carbide Composite Armor Plate",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29051,
+    "name": "Capital Fusion Reactor Unit",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29053,
+    "name": "Capital Fusion Thruster",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29055,
+    "name": "Capital Gravimetric Sensor Cluster",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29059,
+    "name": "Capital Graviton Reactor Unit",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29061,
+    "name": "Capital Ion Thruster",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29065,
+    "name": "Capital Ladar Sensor Cluster",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29067,
+    "name": "Capital Linear Shield Emitter",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29069,
+    "name": "Capital Magnetometric Sensor Cluster",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29071,
+    "name": "Capital Magpulse Thruster",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29073,
+    "name": "Capital Nanoelectrical Microprocessor",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29075,
+    "name": "Capital Nanomechanical Microprocessor",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29079,
+    "name": "Capital Nuclear Reactor Unit",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29081,
+    "name": "Capital Oscillator Capacitor Unit",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29085,
+    "name": "Capital Photon Microprocessor",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29089,
+    "name": "Capital Plasma Thruster",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29091,
+    "name": "Capital Pulse Shield Emitter",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29093,
+    "name": "Capital Quantum Microprocessor",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29095,
+    "name": "Capital Radar Sensor Cluster",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29097,
+    "name": "Capital Scalar Capacitor Unit",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29101,
+    "name": "Capital Sustained Shield Emitter",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29103,
+    "name": "Capital Tesseract Capacitor Unit",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29107,
+    "name": "Capital Titanium Diborite Armor Plate",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29109,
+    "name": "Capital Tungsten Carbide Armor Plate",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29203,
+    "name": "Minmatar DNA",
+    "volume": 0.1
+  },
+  {
+    "typeID": 29992,
+    "name": "Optimized Nano-Engines",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29994,
+    "name": "Warfare Computation Core",
+    "volume": 10.0
+  },
+  {
+    "typeID": 29996,
+    "name": "Emergent Neurovisual Interface",
+    "volume": 20.0
+  },
+  {
+    "typeID": 30002,
+    "name": "Fullerene Intercalated Sheets",
+    "volume": 5.0
+  },
+  {
+    "typeID": 30008,
+    "name": "Reinforced Metallofullerene Alloys",
+    "volume": 10.0
+  },
+  {
+    "typeID": 30018,
+    "name": "Fused Nanomechanical Engines",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30019,
+    "name": "Powdered C-540 Graphite",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30021,
+    "name": "Modified Fluid Router",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30022,
+    "name": "Heuristic Selfassemblers",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30024,
+    "name": "Cartesian Temporal Coordinator",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30248,
+    "name": "Emergent Combat Analyzer",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30251,
+    "name": "Neurovisual Input Matrix",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30252,
+    "name": "Thermoelectric Catalysts",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30254,
+    "name": "Electromechanical Hull Sheeting",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30258,
+    "name": "Resonance Calibration Matrix",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30259,
+    "name": "Melted Nanoribbons",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30268,
+    "name": "Jump Drive Control Nexus",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30269,
+    "name": "Defensive Control Node",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30270,
+    "name": "Central System Controller",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30271,
+    "name": "Emergent Combat Intelligence",
+    "volume": 0.01
+  },
+  {
+    "typeID": 30303,
+    "name": "Fulleroferrocene",
+    "volume": 0.1
+  },
+  {
+    "typeID": 30304,
+    "name": "PPD Fullerene Fibers",
+    "volume": 0.5
+  },
+  {
+    "typeID": 30305,
+    "name": "Fullerene Intercalated Graphite",
+    "volume": 0.8
+  },
+  {
+    "typeID": 30306,
+    "name": "Methanofullerene",
+    "volume": 0.75
+  },
+  {
+    "typeID": 30307,
+    "name": "Lanthanum Metallofullerene",
+    "volume": 1.0
+  },
+  {
+    "typeID": 30308,
+    "name": "Scandium Metallofullerene",
+    "volume": 0.65
+  },
+  {
+    "typeID": 30309,
+    "name": "Graphene Nanoribbons",
+    "volume": 1.5
+  },
+  {
+    "typeID": 30310,
+    "name": "Carbon-86 Epoxy Resin",
+    "volume": 0.4
+  },
+  {
+    "typeID": 30311,
+    "name": "C3-FTM Acid",
+    "volume": 0.2
+  },
+  {
+    "typeID": 30370,
+    "name": "Fullerite-C50",
+    "volume": 1.0
+  },
+  {
+    "typeID": 30371,
+    "name": "Fullerite-C60",
+    "volume": 1.0
+  },
+  {
+    "typeID": 30372,
+    "name": "Fullerite-C70",
+    "volume": 1.0
+  },
+  {
+    "typeID": 30373,
+    "name": "Fullerite-C72",
+    "volume": 2.0
+  },
+  {
+    "typeID": 30374,
+    "name": "Fullerite-C84",
+    "volume": 2.0
+  },
+  {
+    "typeID": 30375,
+    "name": "Fullerite-C28",
+    "volume": 2.0
+  },
+  {
+    "typeID": 30376,
+    "name": "Fullerite-C32",
+    "volume": 5.0
+  },
+  {
+    "typeID": 30377,
+    "name": "Fullerite-C320",
+    "volume": 5.0
+  },
+  {
+    "typeID": 30378,
+    "name": "Fullerite-C540",
+    "volume": 10.0
+  },
+  {
+    "typeID": 30464,
+    "name": "Metallofullerene Plating",
+    "volume": 5.0
+  },
+  {
+    "typeID": 30466,
+    "name": "Electromechanical Interface Nexus",
+    "volume": 10.0
+  },
+  {
+    "typeID": 30470,
+    "name": "Neurovisual Output Analyzer",
+    "volume": 5.0
+  },
+  {
+    "typeID": 30474,
+    "name": "Nanowire Composites",
+    "volume": 5.0
+  },
+  {
+    "typeID": 30476,
+    "name": "Fulleroferrocene Power Conduits",
+    "volume": 5.0
+  },
+  {
+    "typeID": 30478,
+    "name": "Reconfigured Subspace Calibrator",
+    "volume": 10.0
+  },
+  {
+    "typeID": 33016,
+    "name": "A Handful of Tiny Stars",
+    "volume": 10.0
+  },
+  {
+    "typeID": 33017,
+    "name": "Deactivated Station Key Pass",
+    "volume": 0.01
+  },
+  {
+    "typeID": 33019,
+    "name": "Scotty the Docking Manager's Clone",
+    "volume": 0.01
+  },
+  {
+    "typeID": 33195,
+    "name": "Spatial Attunement Unit",
+    "volume": 1.0
+  },
+  {
+    "typeID": 33336,
+    "name": "Thulium Hafnite",
+    "volume": 0.2
+  },
+  {
+    "typeID": 33337,
+    "name": "Promethium Mercurite",
+    "volume": 0.2
+  },
+  {
+    "typeID": 33359,
+    "name": "Photonic Metamaterials",
+    "volume": 1.0
+  },
+  {
+    "typeID": 33360,
+    "name": "Terahertz Metamaterials",
+    "volume": 1.0
+  },
+  {
+    "typeID": 33361,
+    "name": "Plasmonic Metamaterials",
+    "volume": 1.0
+  },
+  {
+    "typeID": 33362,
+    "name": "Nonlinear Metamaterials",
+    "volume": 1.0
+  },
+  {
+    "typeID": 33539,
+    "name": "Shattered Villard Wheel",
+    "volume": 0.1
+  },
+  {
+    "typeID": 33577,
+    "name": "Covert Research Tools",
+    "volume": 0.1
+  },
+  {
+    "typeID": 34396,
+    "name": "Self-Assembling Nanolattice",
+    "volume": 5.0
+  },
+  {
+    "typeID": 34575,
+    "name": "Antikythera Element",
+    "volume": 0.1
+  },
+  {
+    "typeID": 36956,
+    "name": "Structure Electromagnetic Sensor",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 36957,
+    "name": "Structure Acceleration Coils",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 36958,
+    "name": "Structure Advertisement Nexus",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 41266,
+    "name": "Compact Electronics",
+    "volume": 0.001
+  },
+  {
+    "typeID": 41267,
+    "name": "Compact Compounds",
+    "volume": 0.001
+  },
+  {
+    "typeID": 41268,
+    "name": "Compact Conductors",
+    "volume": 0.001
+  },
+  {
+    "typeID": 41307,
+    "name": "Restrained Electronics",
+    "volume": 0.001
+  },
+  {
+    "typeID": 41308,
+    "name": "Restrained Compounds",
+    "volume": 0.001
+  },
+  {
+    "typeID": 41309,
+    "name": "Restrained Conductors",
+    "volume": 0.001
+  },
+  {
+    "typeID": 42226,
+    "name": "Serpentis Modified Capital Microprocessor",
+    "volume": 1.0
+  },
+  {
+    "typeID": 45584,
+    "name": "Hyasyoda Research Lab Technical Data Chip",
+    "volume": 0.1
+  },
+  {
+    "typeID": 45585,
+    "name": "Thukker Capital Component Manufacturing Technical Data Chip",
+    "volume": 0.1
+  },
+  {
+    "typeID": 45652,
+    "name": "Superconducting Magnetometric Amplifier",
+    "volume": 5.0
+  },
+  {
+    "typeID": 45653,
+    "name": "Superconducting Gravimetric Amplifier",
+    "volume": 5.0
+  },
+  {
+    "typeID": 45654,
+    "name": "Superconducting Radar Amplifier",
+    "volume": 5.0
+  },
+  {
+    "typeID": 45655,
+    "name": "Superconducting Ladar Amplifier",
+    "volume": 5.0
+  },
+  {
+    "typeID": 45660,
+    "name": "Scorched Microgravimeter",
+    "volume": 0.01
+  },
+  {
+    "typeID": 45661,
+    "name": "Faraday Force Magnetometer",
+    "volume": 0.01
+  },
+  {
+    "typeID": 45662,
+    "name": "Ancient Radar Decorrelator",
+    "volume": 0.01
+  },
+  {
+    "typeID": 45663,
+    "name": "Synthetic Aperture Ladar Receiver",
+    "volume": 0.01
+  },
+  {
+    "typeID": 47041,
+    "name": "New Eden Genome Amalgam",
+    "volume": 0.1
+  },
+  {
+    "typeID": 47975,
+    "name": "Crystalline Isogen-10",
+    "volume": 0.3
+  },
+  {
+    "typeID": 48112,
+    "name": "Zero-Point Condensate",
+    "volume": 0.2
+  },
+  {
+    "typeID": 48927,
+    "name": "Chromodynamic Tricarboxyls",
+    "volume": 1.0
+  },
+  {
+    "typeID": 49720,
+    "name": "Structure EXERT Conduit Coupler",
+    "volume": 3000.0
+  },
+  {
+    "typeID": 52310,
+    "name": "Radiation Absorption Thruster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 52311,
+    "name": "Singularity Radiation Convertor",
+    "volume": 1.0
+  },
+  {
+    "typeID": 52312,
+    "name": "Zero-Point Field Manipulator",
+    "volume": 1.0
+  },
+  {
+    "typeID": 52313,
+    "name": "Trinary State Processor",
+    "volume": 1.0
+  },
+  {
+    "typeID": 52314,
+    "name": "Lattice Locked Dekaisogen",
+    "volume": 1.0
+  },
+  {
+    "typeID": 53035,
+    "name": "Capital Ultratidal Entropic Mounting",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 53036,
+    "name": "Capital Radiation Conversion Unit",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 53037,
+    "name": "Capital Absorption Thruster Array",
+    "volume": 2000.0
+  },
+  {
+    "typeID": 54562,
+    "name": "Korako's Modified Drone Control Unit",
+    "volume": 0.1
+  },
+  {
+    "typeID": 54970,
+    "name": "Electromagnetic Metaprismatic Sheeting",
+    "volume": 0.25
+  },
+  {
+    "typeID": 54971,
+    "name": "Hyperbolic Metatransistor Array",
+    "volume": 0.25
+  },
+  {
+    "typeID": 54972,
+    "name": "Ultraconducting Ablative Nanocable",
+    "volume": 0.25
+  },
+  {
+    "typeID": 57442,
+    "name": "Counter-Subversion Sensor Array",
+    "volume": 20.0
+  },
+  {
+    "typeID": 57444,
+    "name": "Nanoscale Filter Plate",
+    "volume": 5.0
+  },
+  {
+    "typeID": 57449,
+    "name": "Nano Regulation Gate",
+    "volume": 0.1
+  },
+  {
+    "typeID": 57450,
+    "name": "Electro-Neural Signaller",
+    "volume": 0.25
+  },
+  {
+    "typeID": 57451,
+    "name": "Enhanced Electro-Neural Signaller",
+    "volume": 2.5
+  },
+  {
+    "typeID": 57456,
+    "name": "Pressurized Oxidizers",
+    "volume": 0.1
+  },
+  {
+    "typeID": 57457,
+    "name": "Reinforced Carbon Fiber",
+    "volume": 0.1
+  },
+  {
+    "typeID": 57458,
+    "name": "Meta-Operant Neurolink Enhancer",
+    "volume": 16.0
+  },
+  {
+    "typeID": 57459,
+    "name": "Hypnagogic Neurolink Enhancer",
+    "volume": 4.0
+  },
+  {
+    "typeID": 57460,
+    "name": "Axosomatic Neurolink Enhancer",
+    "volume": 4.0
+  },
+  {
+    "typeID": 57461,
+    "name": "Cogni-Emotive Neurolink Enhancer",
+    "volume": 4.0
+  },
+  {
+    "typeID": 57462,
+    "name": "Sense-Heuristic Neurolink Enhancer",
+    "volume": 4.0
+  },
+  {
+    "typeID": 57463,
+    "name": "Isotropic Neofullerene Alpha-3",
+    "volume": 8.0
+  },
+  {
+    "typeID": 57464,
+    "name": "Isotropic Neofullerene Beta-6",
+    "volume": 8.0
+  },
+  {
+    "typeID": 57465,
+    "name": "Isotropic Neofullerene Gamma-9",
+    "volume": 8.0
+  },
+  {
+    "typeID": 57466,
+    "name": "Ultradian-Cycling Neurolink Stabilizer",
+    "volume": 10.0
+  },
+  {
+    "typeID": 57467,
+    "name": "Reaction-Orienting Neurolink Stabilizer",
+    "volume": 10.0
+  },
+  {
+    "typeID": 57468,
+    "name": "Stress-Responding Neurolink Stabilizer",
+    "volume": 10.0
+  },
+  {
+    "typeID": 57469,
+    "name": "Goal-Orienting Neurolink Stabilizer",
+    "volume": 10.0
+  },
+  {
+    "typeID": 57470,
+    "name": "U-C Trigger Neurolink Conduit",
+    "volume": 16.0
+  },
+  {
+    "typeID": 57471,
+    "name": "R-O Trigger Neurolink Conduit",
+    "volume": 16.0
+  },
+  {
+    "typeID": 57472,
+    "name": "S-R Trigger Neurolink Conduit",
+    "volume": 16.0
+  },
+  {
+    "typeID": 57473,
+    "name": "G-O Trigger Neurolink Conduit",
+    "volume": 16.0
+  },
+  {
+    "typeID": 57474,
+    "name": "Radar-FTL Interlink Communicator",
+    "volume": 100.0
+  },
+  {
+    "typeID": 57475,
+    "name": "Gravimetric-FTL Interlink Communicator",
+    "volume": 100.0
+  },
+  {
+    "typeID": 57476,
+    "name": "Magnetometric-FTL Interlink Communicator",
+    "volume": 100.0
+  },
+  {
+    "typeID": 57477,
+    "name": "Ladar-FTL Interlink Communicator",
+    "volume": 100.0
+  },
+  {
+    "typeID": 57478,
+    "name": "Auto-Integrity Preservation Seal",
+    "volume": 16.0
+  },
+  {
+    "typeID": 57479,
+    "name": "Core Temperature Regulator",
+    "volume": 180.0
+  },
+  {
+    "typeID": 57480,
+    "name": "Programmable Purification Membrane",
+    "volume": 8000.0
+  },
+  {
+    "typeID": 57481,
+    "name": "Genetic Lock Preserver",
+    "volume": 1.0
+  },
+  {
+    "typeID": 57482,
+    "name": "Genetic Safeguard Filter",
+    "volume": 1.0
+  },
+  {
+    "typeID": 57483,
+    "name": "Neurolink Enhancer Reservoir",
+    "volume": 400.0
+  },
+  {
+    "typeID": 57484,
+    "name": "Genetic Structure Repairer",
+    "volume": 1.0
+  },
+  {
+    "typeID": 57485,
+    "name": "Genetic Mutation Inhibitor",
+    "volume": 1.0
+  },
+  {
+    "typeID": 57486,
+    "name": "Life Support Backup Unit",
+    "volume": 45.0
+  },
+  {
+    "typeID": 57487,
+    "name": "Capital Core Temperature Regulator",
+    "volume": 28000.0
+  },
+  {
+    "typeID": 57488,
+    "name": "Neurolink Protection Cell",
+    "volume": 5500.0
+  },
+  {
+    "typeID": 76374,
+    "name": "Neo-Jadarite",
+    "volume": 0.01
+  },
+  {
+    "typeID": 81063,
+    "name": "Fission Thruster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 81064,
+    "name": "Hyperconductive Gravimetric Sensor Cluster",
+    "volume": 1.0
+  },
+  {
+    "typeID": 81065,
+    "name": "Electromechanical Microprocessor",
+    "volume": 1.0
+  },
+  {
+    "typeID": 81066,
+    "name": "Metaprismatic Armor Plate",
+    "volume": 1.0
+  },
+  {
+    "typeID": 81067,
+    "name": "Repelling Shield Emitter",
+    "volume": 1.0
+  },
+  {
+    "typeID": 81068,
+    "name": "Fission Reactor Unit",
+    "volume": 1.0
+  },
+  {
+    "typeID": 81069,
+    "name": "Pentachoron Capacitor Unit",
+    "volume": 1.0
+  },
+  {
+    "typeID": 81144,
+    "name": "Superionic Ice",
+    "volume": 1.5
+  },
+  {
+    "typeID": 85390,
+    "name": "Armor Mutaplasmid Residue",
+    "volume": 0.01
+  },
+  {
+    "typeID": 85391,
+    "name": "Astronautic Mutaplasmid Residue",
+    "volume": 0.01
+  },
+  {
+    "typeID": 85392,
+    "name": "Damage Control Mutaplasmid Residue",
+    "volume": 0.01
+  },
+  {
+    "typeID": 85393,
+    "name": "Stasis Webifier Mutaplasmid Residue",
+    "volume": 0.01
+  },
+  {
+    "typeID": 85394,
+    "name": "Warp Disruption Mutaplasmid Residue",
+    "volume": 0.01
+  },
+  {
+    "typeID": 85395,
+    "name": "Weapon Upgrade Mutaplasmid Residue",
+    "volume": 0.01
+  },
+  {
+    "typeID": 85396,
+    "name": "Drone Mutaplasmid Residue",
+    "volume": 0.01
+  },
+  {
+    "typeID": 85397,
+    "name": "Small Mutaplasmid Residue",
+    "volume": 0.01
+  },
+  {
+    "typeID": 85398,
+    "name": "Medium Mutaplasmid Residue",
+    "volume": 0.01
+  },
+  {
+    "typeID": 85399,
+    "name": "Large Mutaplasmid Residue",
+    "volume": 0.01
+  },
+  {
+    "typeID": 85400,
+    "name": "X-Large Mutaplasmid Residue",
+    "volume": 0.01
+  },
+  {
+    "typeID": 85401,
+    "name": "Engineering Mutaplasmid Residue",
+    "volume": 0.01
+  },
+  {
+    "typeID": 85402,
+    "name": "Shield Mutaplasmid Residue",
+    "volume": 0.01
+  },
+  {
+    "typeID": 88087,
+    "name": "Eleutrium",
+    "volume": 0.01
+  }
+]
