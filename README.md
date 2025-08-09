@@ -22,15 +22,16 @@ https://developers.eveonline.com/docs/services/iec/
 
 I will also keep a copy of this download here in this repo.
 
-•	Open these 2 files from the SDE
-o	marketGroups.yaml
-o	iconIDs.yaml
-•	Open the unzipped image export collection folder.
-
-•	Search marketGroups.yaml for a group name (Example: Manufacture & Research)
-•	Copy the iconID from marketGroups.yaml (Example: 1436)
-•	Search iconIDs.yaml for the iconID
-•	Copy the path file name at the end of the path for the iconFile (Example: 27_64_1.png)
-•	In the image export collection folder, do a search for the iconFile name.
-•	You may get a few results, but what you want is the name that is an exact match.
+Finding Market Group Icons
+- Open these 2 files from the SDE
+-- marketGroups.yaml
+-- iconIDs.yam
+- Open the unzipped image export collection folder.
+- Search marketGroups.yaml for a group name (Example: Manufacture & Research)
+- Copy the iconID from marketGroups.yaml (Example: 1436)
+- Search iconIDs.yaml for the iconID
+- Copy the path file name at the end of the path for the iconFile (Example: 27_64_1.png)
+- In the image export collection folder, do a search for the iconFile name.
+- You may get a few results, but what you want is the name that is an exact match
+- Copy that icon file to whereever you app/site icons are stored and if you are building your market structure from ESI via json, the objets should line up with the files.
 
